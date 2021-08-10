@@ -11,7 +11,7 @@ This has been tested in Python versions 3.5, 3.6, and 3.7. Feedback on testing w
 ```
 from parse_unl import unl_parser
 
-ADDRESS = "https://vl.ripple.com"
+ADDRESS = "https://vl.xrplf.org"
 KEYS = unl_parser(ADDRESS)
 ```
 
@@ -26,6 +26,7 @@ A JSON object is returned with the following keys:
 The script does not verify the signature for the UNL manifest. Hopefully this will be available in a future version.
 
 ## Known Validator List Sites
+- `https://vl.xrplf.org`
 - `https://vl.ripple.com`
 - `https://vl.coil.com`
 
